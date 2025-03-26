@@ -1,0 +1,17 @@
+{
+    "name": "m9ebah/snapchat-scraper-php",
+    "license": "GPL-3.0-or-later",
+    "type": "library",
+    "description": "PHP library for downloading public Snapchat stories.",
+    "autoload": {
+        "psr-4": {
+            "SnapchatScraper\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.0.10"
+    }
+}
